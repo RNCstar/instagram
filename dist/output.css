@@ -479,6 +479,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
 .flex {
   display: flex;
 }
@@ -527,11 +530,20 @@ video {
 .w-24 {
   width: 6rem;
 }
+.w-4 {
+  width: 1rem;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -551,6 +563,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -569,6 +584,9 @@ video {
 .border-s-2 {
   border-inline-start-width: 2px;
 }
+.border-t {
+  border-top-width: 1px;
+}
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -581,6 +599,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(190 24 93 / var(--tw-border-opacity));
 }
+.border-slate-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -592,6 +614,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-fuchsia-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 244 255 / var(--tw-bg-opacity));
 }
 .p-1 {
   padding: 0.25rem;
@@ -635,6 +661,10 @@ video {
 .px-72 {
   padding-left: 18rem;
   padding-right: 18rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -687,6 +717,14 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
 .opacity-50 {
   opacity: 0.5;
 }
@@ -738,5 +776,13 @@ video {
   .lg\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .lg\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
 }
